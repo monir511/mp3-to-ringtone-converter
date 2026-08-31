@@ -1,0 +1,13 @@
+# Language detection rules
+# Normalize line endings
+*.map linguist-generated
+
+*.woff2 binary
+*.bat text eol=crlf
+src/**/*.js linguist-detectable
+go.sum linguist-generated
+
+public/* linguist-vendored
+* text=auto eol=lf
+
+**/*.js linguist-detectable
